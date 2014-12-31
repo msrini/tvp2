@@ -1,0 +1,18 @@
+
+<table st-table="rowCollection" class="table">
+    <thead>
+    <tr>
+        <td ng-repeat="mth in bc.months" colspan="{{bc.mWeeks[mth]}}">{{mth}}</td>
+    </tr>
+    </thead>
+
+    <tr>
+        <td ng-repeat="i in Range(bc.nWeeks) track by $index">{{$index + 1}}</td>
+    </tr>
+    <tr>
+        <td ng-repeat="i in Range(bc.nWeeks) track by $index">{{bc.wStDay[$index]}}</td>
+    </tr>
+    <tr st-select-row="row" st-select-mode="multiple" ng-repeat="row in bc.bRows">
+        <td style="border:groove" ng-repeat="i in Range(bc.nWeeks) track by $index">{{bc.wBursts[$index][row]}}</td>
+    </tr>
+</table>
