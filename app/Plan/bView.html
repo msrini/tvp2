@@ -1,0 +1,22 @@
+<div class="datagrid">
+<table class="table CSSTableGenerator" >
+    <thead class="shaded">
+    <tr>
+        <td ng-repeat="mth in bc.months" colspan="{{bc.mWeeks[mth]}}">{{mth}}</td>
+    </tr>
+    <tr>
+        <td ng-repeat="i in Range(bc.nWeeks) track by $index">{{$index + 1}}</td>
+    </tr>
+    <tr>
+        <td ng-repeat="i in Range(bc.nWeeks) track by $index">{{bc.wStDay[$index]}}</td>
+    </tr>
+    </thead>
+    <tbody>
+
+        <tr ng-repeat="(key,val) in bc.rowObjects">
+            <!--td ng-repeat="j in Range(val.length) track by $index">{{val[$index]}}</td-->
+            <td ng-repeat="(idx,bAmt) in val track by idx">{{bAmt}}</td>
+        </tr>
+    </tbody>
+</table>
+</div>

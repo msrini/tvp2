@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="09091e8d-b481-44da-b5cc-48812406c45e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/media/Modernizr 2 Logo.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/media/Modernizr 2 Logo.eps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/media/Modernizr 2 Logo.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/media/Modernizr 2 Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/Windsong-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/Windsong-webfont.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/Windsong-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/Windsong-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular/angular.min.js.gzip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/apng_test.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/before-after.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/green5x5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/mathml_ref.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/png_alpha_result.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/red30x30.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/ruby.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/stroked-text.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/svg-html-blur.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/svg_blur.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/table.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/text-shadow1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/text-shadow2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/windsong_font.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/fastclick/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery-placeholder/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery.cookie/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/data/Data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/fastclick/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/media/Modernizr 2 Logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/fastclick/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/effects/Tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/Windsong-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_accordion.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_alert-boxes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_block-grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_breadcrumbs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_button-groups.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_clearing.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_dropdown-buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_dropdown.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/manipulation/_evalUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_flex-video.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/_functions.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_global.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_icon-bar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_inline-lists.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_joyride.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_keystrokes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_magellan.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_offcanvas.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_orbit.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_panels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_pricing-tables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_progress-bars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_range-slider.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_reveal.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/_settings.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_side-nav.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_split-buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_sub-nav.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_switches.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_tables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_tabs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_thumbs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_toolbar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_tooltips.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_top-bar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_type.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation/components/_visibility.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/a-download.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/data/accepts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/core/access.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/css/addGetHookIf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/event/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/event/alias.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/exports/amd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular/angular-csp.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router/api/angular-ui-router.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router/release/angular-ui-router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router/release/angular-ui-router.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular/angular.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/effects/animatedSelector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/var/arr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/attributes/attr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/attributes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/audio-audiodata-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/audio-webaudio-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Plan/bPlan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Plan/bView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/js/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/battery-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/battery-level.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/blob-constructor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/fastclick/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery-placeholder/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery.cookie/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/callbacks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/canvas-todataurl-type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/var/class2type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/attributes/classes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router/src/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/var/concat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/contenteditable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/contentsecuritypolicy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/contextmenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/cookies.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/cors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-backgroundposition-shorthand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-backgroundposition-xy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-backgroundrepeat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-backgroundsizecover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-boxsizing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-calc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-cubicbezierrange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-displayrunin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-displaytable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-filters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-hyphens.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-lastchild.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-mask.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-mediaqueries.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-objectfit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-overflow-scrolling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-pointerevents.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-positionsticky.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-regions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-remunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-scrollbars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-shapes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-subpixelfont.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-supports.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-userselect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-vhunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-vmaxunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-vminunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/css-vwunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/css/var/cssExpand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/css/curCSS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/custom-protocol-handler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/dart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/data/var/data_priv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/data/var/data_user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/dataview-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/css/defaultDisplay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/deferred.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/queue/delay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/deprecated.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/js/lib/detect-global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/dimensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/dom-classlist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/dom-createElement-attrs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/dom-dataset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/dom-microdata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/js/dumpdata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/effects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/elem-datalist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/elem-details.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/elem-output.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/elem-progress-meter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/elem-ruby.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/elem-time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/elem-track.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/emoji.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/data/entry.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/es5-strictmode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/event-deviceorientation-motion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/exif-orientation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/fastclick/lib/fastclick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/vendor/fastclick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/file-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/file-filesystem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/traversing/findFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/form_validation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/forms-fileinput.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/forms-formattribute.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/forms-inputnumber-l10n.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/forms-placeholder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/forms-speechinput.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/forms-validation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/foundation/foundation.abide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/foundation/foundation.accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/foundation/foundation.alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/foundation/foundation.clearing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/css/foundation.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/css/foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/foundation/foundation.dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/foundation/foundation.equalizer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/foundation/foundation.interchange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/foundation/foundation.joyride.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/foundation/foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/foundation/foundation.magellan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/foundation/foundation.offcanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/foundation/foundation.orbit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/foundation/foundation.reveal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/foundation.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/foundation/foundation.slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/foundation/foundation.tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/foundation/foundation.tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/foundation/foundation.topbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/fullscreen-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/ga.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/gamepad.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/css/var/getStyles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/getusermedia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/exports/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/grunt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/var/hasOwn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/hashchange.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/ie8compat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/iframe-sandbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/iframe-seamless.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/iframe-srcdoc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/img-apng.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/img-webp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/var/indexOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/core/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/intro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/css/var/isHidden.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/js/lib/jquery-1.7b2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/vendor/jquery.cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery.cookie/jquery.cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/vendor/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/dist/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/dist/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/dist/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery-placeholder/jquery.placeholder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/json.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/ajax/jsonp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/js/lib/jsonselect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/lists-reversed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/ajax/load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/common/loadServices.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/manipulation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/mathml.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/mathml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/modernizr-1.7.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/vendor/modernizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/modernizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/network-connection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/network-eventsource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/network-xhr2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/ajax/var/nonce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/css/normalize.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/scss/normalize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/notification.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/offset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/outro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/core/parseHTML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/ajax/parseJSON.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/ajax/parseXML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/performance.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/foundation/js/vendor/placeholder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/var/pnum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/pointerlock-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/js/lib/polyfills.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/attributes/prop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/var/push.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/pushstate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/qunit/qunit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/qunit/qunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/quota-management-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/manipulation/var/rcheckableType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/core/ready.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/requestanimationframe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router/src/resolve.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/css/var/rmargin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/traversing/var/rneedsContext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/var/rnotwhite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/css/var/rnumnonpx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/ajax/var/rquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/core/var/rsingleTag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/qunit/run-qunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/script-async.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/script-defer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/ajax/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/selector-native.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/selector-sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/serialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/js/setup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/sizzle/dist/sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/sizzle/dist/sizzle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/sizzle/dist/sizzle.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/var/slice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/smart-table.debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router/src/state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router/src/stateDirectives.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router/src/stateFilters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/var/strundefined.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/style-scoped.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/attributes/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/css/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/event/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/manipulation/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/var/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/svg-filters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/svg-img.svg.1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/svg-img.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/css/swap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router/src/templateFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/var/toString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/traversing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/tvp2.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tvpapp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/js/lib/uaparser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/unicode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/js/unit-caniuse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/js/unit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/url-data-uri.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router/src/urlMatcherFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router/src/urlRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/userdata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/attributes/val.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/vibration.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router/src/view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router/src/viewDirective.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-router/src/viewScroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/web-intents.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/webgl-extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/websockets-binary.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/window-framed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/workers-blobworkers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/workers-dataworkers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/feature-detects/workers-sharedworkers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/wrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/src/ajax/xhr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modernizr/test/caniuse_files/xhtml.html" />
+    </list>
+    <ignored path="tvp2.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="tvp2" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="493">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style2.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/style2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="875" max-vertical-offset="1479">
+              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <caret line="0" column="2230" selection-start-line="0" selection-start-column="2230" selection-end-line="0" selection-end-column="2230" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bView.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Plan/bView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8119403" vertical-offset="0" max-vertical-offset="459">
+              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bPlan.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Plan/bPlan.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="884">
+              <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#48#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loadServices.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/common/loadServices.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="391">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entry.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/data/entry.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="391">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tvpapp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tvpapp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="663">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#48#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="srini" />
+      </list>
+    </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.bowerrc" />
+        <option value="$PROJECT_DIR$/app/common/loadServices.js" />
+        <option value="$PROJECT_DIR$/tvpapp.js" />
+        <option value="$PROJECT_DIR$/styles/style.css" />
+        <option value="$PROJECT_DIR$/styles/style2.css" />
+        <option value="$PROJECT_DIR$/app/data/entry.txt" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/Plan/bPlan.js" />
+        <option value="$PROJECT_DIR$/app/Plan/bView.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvp2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvp2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvp2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvp2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvp2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvp2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvp2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvp2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvp2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\WorkStreams\ngEx\tvp2\app" />
+      <recent name="F:\WorkStreams\ngEx\tvp2\lib" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09091e8d-b481-44da-b5cc-48812406c45e" name="Default" comment="" />
+      <created>1419917208851</created>
+      <option name="number" value="Default" />
+      <updated>1419917208851</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32931036" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="493">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/style2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="875" max-vertical-offset="1479">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <caret line="0" column="2230" selection-start-line="0" selection-start-column="2230" selection-end-line="0" selection-end-column="2230" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plan/bView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plan/bPlan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="884">
+          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/loadServices.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="391">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/data/entry.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="391">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvpapp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="663">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="493">
+          <caret line="7" column="84" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plan/bView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plan/bPlan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="646">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/loadServices.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="391">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/data/entry.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="391">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvpapp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="663">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0508982" vertical-offset="0" max-vertical-offset="334">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/angular/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="443275">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/angular-ui-router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="62203">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/loadServices.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/foundation/css/foundation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="35803" max-vertical-offset="103683">
+          <caret line="2112" column="16" selection-start-line="2112" selection-start-column="11" selection-end-line="2112" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="349">
+          <caret line="0" column="2230" selection-start-line="0" selection-start-column="2230" selection-end-line="0" selection-end-column="2230" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/style2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="875" max-vertical-offset="1479">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="493">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tvpapp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="663">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/data/entry.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="391">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plan/bPlan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="884">
+          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plan/bView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8119403" vertical-offset="0" max-vertical-offset="459">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="tvpapp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link type="text/css" media="screen" rel="stylesheet" href="styles/style.css" />
+    <link type="text/css" media="screen" rel="stylesheet" href="styles/style2.css" />
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-ui-router.js"></script>
+    <script src="lib/smart-table.debug.js"></script>
+</head>
+<body ng-controller="tvpController as tc">
+    <h1>Hi</h1>
+
+    <div class="container">
+        <div ui-view></div>
+    </div>
+
+    <script src="tvpapp.js"></script>
+    <script src="app/common/loadServices.js"></script>
+    <script src="app/Plan/bPlan.js"></script>
+</body>
+</html>
