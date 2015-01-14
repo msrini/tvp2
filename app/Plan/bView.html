@@ -1,22 +1,32 @@
 <div class="datagrid">
-<table class="table CSSTableGenerator" >
-    <thead class="shaded">
-    <tr>
-        <td ng-repeat="mth in bc.months" colspan="{{bc.mWeeks[mth]}}">{{mth}}</td>
-    </tr>
-    <tr>
-        <td ng-repeat="i in Range(bc.nWeeks) track by $index">{{$index + 1}}</td>
-    </tr>
-    <tr>
-        <td ng-repeat="i in Range(bc.nWeeks) track by $index">{{bc.wStDay[$index]}}</td>
-    </tr>
-    </thead>
-    <tbody>
-
-        <tr ng-repeat="(key,val) in bc.rowObjects">
-            <!--td ng-repeat="j in Range(val.length) track by $index">{{val[$index]}}</td-->
-            <td ng-repeat="(idx,bAmt) in val track by idx">{{bAmt}}</td>
-        </tr>
-    </tbody>
-</table>
+    <form id="myform">
+        <table st-table="bc.rowObjects" class="table " >
+            <thead class="shaded">
+            <tr>
+                <td ng-repeat="mth in bc.months" colspan="{{bc.mWeeks[mth]}}">{{mth}}</td>
+            </tr>
+            <tr>
+                <td ng-repeat="i in Range(bc.nWeeks) track by $index">{{$index + 1}}</td>
+            </tr>
+            <tr>
+                <td ng-repeat="i in Range(bc.nWeeks) track by $index">{{bc.wStDay[$index]}}</td>
+            </tr>
+            </thead>
+            <tbody class="mytext" ng-drop="true" ng-drop-success="bc.onDropComplete2($data,$event)">
+                <tr ng-repeat="(key,bDetails) in bc.rowObjects">
+                    <!--td ng-repeat="j in Range(val.length) track by $index">{{val[$index]}}</td-->
+                    <td ng-repeat="(idx, amt) in bDetails.amounts track by idx" ng-click="bc.cellClicked(key,idx)" ng-class="bc.selected(key,idx)">
+                        <span ng-if="!bc.isEdit(key,idx)">{{amt}}</span>
+                        <div ng-drag="true" ng-drag-data="{{bc.selectCells}}" ng-if="bc.isEdit(key,idx)"><input type="number" ng-model="bDetails.amounts[idx]" class="mytext" /></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td ng-repeat="mth in bc.months" colspan="{{bc.mWeeks[mth]}}">{{bc.totals[mth]}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <button ng-click="bc.editSel()">Edit Selection</button>
+        <button ng-click="bc.saveSel()" ng-class="scHide()">Save</button>
+        <button ng-click="bc.cancSel()" ng-class="scHide()">Cancel</button>
+    </form>
 </div>

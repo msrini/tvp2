@@ -2,7 +2,7 @@
  * Created by srinivasanm on 12/30/2014.
  */
 (function() {
-    angular.module("tvpapp",["smart-table", "ui.router"])
+    angular.module("tvpapp",["smart-table", "ui.router", "ngDraggable"])
         .controller("tvpController",["$scope", "loadServices", function($scope, loadServices) {
             var vm = this;
 

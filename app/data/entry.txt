@@ -1,18 +1,18 @@
 {
     "weeks": [
-        {"bursts" :[0,12,0,14,0,10,0,0], "month":"Jan", "startDay":"31"},
-        {"bursts" :[0,10,10,15,10,0,0,0], "month":"Jan", "startDay":"7"},
-        {"bursts" :[0,10,10,11,10,0,0,0], "month":"Jan", "startDay":"14"},
-        {"bursts" :[10,10,10,34,10,0,0,0], "month":"Jan", "startDay":"21"},
-        {"bursts" :[0,10,10,0,45,0,0,0], "month":"Jan", "startDay":"28"},
-        {"bursts" :[10,10,56,0,10,0,0,0], "month":"Feb", "startDay":"4"},
-        {"bursts" :[0,10,4,0,10,0,0,0], "month":"Feb", "startDay":"11"},
-        {"bursts" :[10,1,10,0,10,0,0,0], "month":"Feb", "startDay":"18"},
-        {"bursts" :[0,10,10,0,10,0,0,0], "month":"Feb", "startDay":"25"},
-        {"bursts":[0,10,10,0,40,0,0,0], "month":"Mar", "startDay":"4"},
-        {"bursts":[0,10,10,0,10,0,0,0], "month":"Mar", "startDay":"11"},
-        {"bursts":[0,20,10,0,10,0,0,0], "month":"Mar", "startDay":"18"},
-        {"bursts":[0,10,40,0,10,0,0,0], "month":"Mar", "startDay":"25"},
-        {"bursts":[0,10,10,10,0,0,20,0], "month":"Mar", "startDay":"1"}
+        {"bursts" :[0,12,0,14,0,10,0,0], "month":"Jan", "startDay":"31", "formats":[30,20,10,20,30,40,20,30]},
+        {"bursts" :[0,10,10,15,10,0,0,0], "month":"Jan", "startDay":"7", "formats":[10,10,20,40,20,40,10,10]},
+        {"bursts" :[0,10,10,11,10,0,0,0], "month":"Jan", "startDay":"14", "formats":[10,10,20,10,40,30,20,10]},
+        {"bursts" :[10,10,10,34,10,0,0,0], "month":"Jan", "startDay":"21", "formats":[10,10,10,20,30,40,20,30]},
+        {"bursts" :[0,10,10,0,45,0,0,0], "month":"Jan", "startDay":"28", "formats":[30,40,10,20,30,40,20,30]},
+        {"bursts" :[10,10,56,0,10,0,0,0], "month":"Feb", "startDay":"4", "formats":[30,30,20,20,30,40,20,30]},
+        {"bursts" :[0,10,4,0,10,0,0,0], "month":"Feb", "startDay":"11", "formats":[30,20,10,40,30,40,20,30]},
+        {"bursts" :[10,1,10,0,10,0,0,0], "month":"Feb", "startDay":"18", "formats":[30,20,10,20,30,40,20,30]},
+        {"bursts" :[0,10,10,0,10,0,0,0], "month":"Feb", "startDay":"25", "formats":[30,20,10,20,30,40,20,30]},
+        {"bursts":[0,10,10,0,40,0,0,0], "month":"Mar", "startDay":"4", "formats":[30,20,10,20,30,40,20,30]},
+        {"bursts":[0,10,10,0,10,0,0,0], "month":"Mar", "startDay":"11", "formats":[30,20,10,20,30,40,20,30]},
+        {"bursts":[0,20,10,0,10,0,0,0], "month":"Mar", "startDay":"18", "formats":[30,20,10,20,30,40,20,30]},
+        {"bursts":[0,10,40,0,10,0,0,0], "month":"Mar", "startDay":"25", "formats":[30,20,10,20,30,40,20,30]},
+        {"bursts":[0,10,10,10,0,0,20,0], "month":"Mar", "startDay":"1", "formats":[30,20,10,20,30,40,20,30]}
     ]
 }
