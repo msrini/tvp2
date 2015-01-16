@@ -41,14 +41,17 @@
                 }
                 //now form the collection to be displayed
                 vm.rowObjects = {};
+
                 for (var row=0; row<vm.bRows.length; row++) {
                     var bursts = [];
                     var edits = [];
+                    var classes = [];
                     for (var i=0; i<vm.nWeeks; i++) {
                         bursts.push(vm.wBursts[i][row]);
                         edits.push(false);
+                        classes.push("notselected");
                     }
-                    vm.rowObjects[row] = {"amounts": bursts,"edits": edits, "origAmounts": bursts.slice(0)};
+                    vm.rowObjects[row] = {"amounts": bursts,"edits": edits, "origAmounts": bursts.slice(0), "classes":classes};
                 }
                 //rowObjects["0"].amounts = [57,867,5...]
                 //Now get month rolled up totals
@@ -56,6 +59,7 @@
                 vm.calcTotals();
 
             });
+
             vm.calcTotals = function() {
                 //sum by month
                 for (var i=0; i<vm.months.length; i++) {
@@ -86,18 +90,24 @@
                 if (e >= 0) {
                     vm.selectCells.splice(e, 1);    //remove
                     vm.rowObjects[row].edits[idx] = false;
+                    vm.rowObjects[row].classes[idx] = "notselected";
                 } else {
-                    vm.selectCells.push({"row":row, "col":idx, "amt":vm.rowObjects[row].amounts[idx]});
+                    vm.selectCells.push({"row":parseInt(row), "col":parseInt(idx), "amt":vm.rowObjects[row].amounts[idx]});
+                    vm.rowObjects[row].classes[idx] = "selected";
                     //vm.rowObjects[row].edits[idx] = true;
                 }
             }
             //selected is for CSS shading
             vm.selected = function(row,idx) {
-                if (alreadySelected(row,idx) >= 0) {
-                    return("selected");
-                } else {
-                    return("xselected");
+                return ("CSSTableGenerator " + vm.rowObjects[row].classes[idx]);
+            }
+            var resetClasses = function() {
+                for (var r = 0; r < vm.bRows.length; r++) {
+                    for (var c = 0; c < vm.nWeeks; c++) {
+                        vm.rowObjects[r].classes[c] = "notselected";
+                    }
                 }
+                vm.dropError = false;
             }
             var alreadySelected = function(row,idx){
                 for (var i=0; i<vm.selectCells.length; i++) {
@@ -125,26 +135,119 @@
             }
             vm.cancSel = function() {
                 vm.editMode = false;
-                for (var i=0; i<vm.selectCells.length; i++) {
-                    var r = vm.selectCells[i].row;
-                    var c = vm.selectCells[i].col;
-                    vm.rowObjects[r].amounts[c] = vm.rowObjects[r].origAmounts[c];
-                    vm.rowObjects[r].edits[c] = false;
+                for (var r=0; r<vm.bRows.length; r++) {
+                    for (var c=0; c<vm.nWeeks; c++) {
+                        vm.rowObjects[r].amounts[c] = vm.rowObjects[r].origAmounts[c];
+                        vm.rowObjects[r].edits[c] = false;
+                    }
                 }
                 vm.selectCells = [];
+                vm.calcTotals();
+                resetClasses();
             }
+
             vm.saveSel = function() {
                 vm.editMode = false;
+                for (var r=0; r<vm.bRows.length; r++) {
+                    for (var c=0; c<vm.nWeeks; c++) {
+                        vm.rowObjects[r].origAmounts[c] = vm.rowObjects[r].amounts[c];
+                        vm.rowObjects[r].edits[c] = false;
+                    }
+                }
+                vm.selectCells = [];
+                vm.calcTotals();
+                resetClasses();
+            }
+
+            vm.onDragSuccess = function(dat,evt) {
+                vm.dropError = false;
+                console.log("DragSuccess - DAT:" + JSON.stringify(dat));
+            }
+            vm.onDropComplete2 = function(dat, evt, droppedRow, droppedCol) {
+                console.log("DAT:" + JSON.stringify(dat));
+                console.log("ROW:" + droppedRow + ";COL:" + droppedCol);
+                var extremes = validateDrop(droppedRow, droppedCol);
+                if (!extremes) {
+                    console.log("Failed Drop");
+                    vm.dropError = true;
+                    return;
+                }
+                console.log("EXTREMES:" + JSON.stringify(extremes));
+                //
+                //var offsetRow = droppedRow - vm.selectCells[0].row;
+                //var offsetCol = droppedCol - vm.selectCells[0].col;
+                var offsetRow = droppedRow - extremes.topleft.row;
+                var offsetCol = droppedCol - extremes.topleft.col;
                 for (var i=0; i<vm.selectCells.length; i++) {
-                    var r = vm.selectCells[i].row;
-                    var c = vm.selectCells[i].col;
-                    //vm.rowObjects[r].amounts[c] = vm.rowObjects[r].origAmounts[c];
-                    vm.rowObjects[r].edits[c] = false;
+                    var targetRow = vm.selectCells[i].row + offsetRow;
+                    var targetCol = vm.selectCells[i].col + offsetCol;
+                    console.log("OffsetRow:" + offsetRow + ";OffsetCol=" + offsetCol + "TargetRow:" + targetRow + ";TargetCol=" + targetCol);
+                    vm.rowObjects[targetRow].amounts[targetCol] = vm.rowObjects[targetRow].amounts[targetCol] + vm.selectCells[i].amt;
+                    vm.rowObjects[vm.selectCells[i].row].amounts[vm.selectCells[i].col] = 0;
+                    vm.rowObjects[targetRow].classes[targetCol] = "dropped";
+                    console.log("ROWOBJECT[" + targetRow + "].amounts[" + targetCol + "] changed to " + vm.rowObjects[targetRow].amounts[targetCol]);
+                    console.log("ROWOBJECT[" + vm.selectCells[i].row + "].amounts[" + vm.selectCells[i].col + "] changed to " + vm.rowObjects[vm.selectCells[i].row].amounts[vm.selectCells[i].col]);
+
                 }
                 vm.calcTotals();
+
             }
-            vm.onDropComplete2 = function() {
-                console.log("HIHIHI");
+            var validateDrop = function(droppedRow, droppedCol) {
+                var extremes = getExtremeSelectedCells();
+                var ret = null;
+
+                var offsetRow = droppedRow - extremes.topleft.row;
+                var offsetCol = droppedCol - extremes.topleft.col;
+                /*if (offsetRow < 0 || offsetCol < 0) {
+                    console.log("DROPERR: offset row, col=" + offsetRow + ";" + offsetCol);
+                    return (ret);
+                }*/
+                console.log("VAL: dropped row=" + droppedRow + ";droppedCol=" + droppedCol );
+                for (var i=0; i<vm.selectCells.length; i++) {
+                    var targetRow = vm.selectCells[i].row + offsetRow;
+                    var targetCol = vm.selectCells[i].col + offsetCol;
+                    if (targetRow < 0 || targetCol < 0) {
+                        console.log("DropERR: target row, col=" + targetRow + ";" + targetCol);
+                        return (ret);
+                    }
+                    if (targetRow >= vm.bRows.length) {
+                        console.log("DROPERR - Target Row " + targetRow + " exceeds limit");
+                        return (ret);
+                    }
+                    if (targetCol >= vm.nWeeks) {
+                        console.log("DROPERR - Target Col " + targetCol + " exceeds limit");
+                        return (ret);
+                    }
+                }
+                return(extremes);
+            }
+            var getExtremeSelectedCells = function() {
+                var minCol = -1;
+                var maxCol = 9999;
+                for (var i=0; i<vm.selectCells.length; i++) {
+                    if (vm.selectCells[i].col > minCol) {
+                        minCol = vm.selectCells[i].col;     //rightmost selected col
+                    }
+                    if (vm.selectCells[i].col < maxCol) {
+                        maxCol = vm.selectCells[i].col;     //leftmost selected col
+                    }
+                }
+                var minRow4minCol = -1;
+                var maxRow4maxCol = 9999;
+                for (var i=0; i<vm.selectCells.length; i++) {
+                    if (vm.selectCells[i].col == minCol) {
+                        if (vm.selectCells[i].row > minRow4minCol) {
+                            minRow4minCol = vm.selectCells[i].row;     //topmost selected row for rightmost col
+                        }
+                    }
+                    if (vm.selectCells[i].col == maxCol) {
+                        if (vm.selectCells[i].row < maxRow4maxCol) {
+                            maxRow4maxCol = vm.selectCells[i].row;     //bottommost selected row for leftmost col
+                        }
+                    }
+                }
+
+                return ({"bottomright":{"row":minRow4minCol, "col":minCol}, "topleft":{"row":maxRow4maxCol, "col":maxCol}});
             }
         }]);
 
