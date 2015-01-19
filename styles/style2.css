@@ -91,6 +91,7 @@
 }
 .mytext {
     width: 100%;
+    text-align: center;
     box-sizing: border-box;
     -webkit-box-sizing:border-box;
     -moz-box-sizing: border-box;
@@ -141,7 +142,7 @@ ul.draggable-objects:after{
 
 }
 [ng-drop].drag-enter{
-    border:dotted 1px black;
+    border:solid 1px red;
 }
 [ng-drop] span.title{
     display: block;

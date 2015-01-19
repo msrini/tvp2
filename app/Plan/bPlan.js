@@ -15,9 +15,11 @@
                 vm.wStDay = [];     //week starting day (entries = number of weeks)
                 vm.months = [];     //["Jan","Feb"]
                 vm.wBursts = [];    //
+                vm.wFormats = [];
                 vm.bRows = [];
                 vm.selectCells = [];
                 vm.editMode = false;
+                vm.dragged = false;
                 for (var i=0; i < vm.nWeeks; i++) {
                     var currMonth = d.weeks[i].month;
                     var currWeek = i;
@@ -35,6 +37,7 @@
                     }
                     vm.wStDay[i] = d.weeks[i].startDay;
                     vm.wBursts[i] = d.weeks[i].bursts;
+                    vm.wFormats[i] = d.weeks[i].formats;
                 }
                 for (var i=0; i < vm.wBursts[0].length; i++) {
                     vm.bRows.push(i);
@@ -46,18 +49,20 @@
                     var bursts = [];
                     var edits = [];
                     var classes = [];
+                    var formats = [];
                     for (var i=0; i<vm.nWeeks; i++) {
                         bursts.push(vm.wBursts[i][row]);
                         edits.push(false);
                         classes.push("notselected");
+                        formats.push(vm.wFormats[i][row]);
                     }
-                    vm.rowObjects[row] = {"amounts": bursts,"edits": edits, "origAmounts": bursts.slice(0), "classes":classes};
+                    vm.rowObjects[row] = {"amounts": bursts, "edits": edits,
+                        "origAmounts": bursts.slice(0), "classes":classes, "formats":formats};
                 }
                 //rowObjects["0"].amounts = [57,867,5...]
                 //Now get month rolled up totals
                 vm.totals = {};
                 vm.calcTotals();
-
             });
 
             vm.calcTotals = function() {
@@ -81,6 +86,9 @@
                     }
                 }
             }
+            /*
+            This is what happens when a cell is clicked!
+            */
             vm.cellClicked = function(row,idx) {
                 //toggle - see if already existing in the selected array. if so remove else add
                 if (vm.editMode) {
@@ -94,7 +102,9 @@
                     vm.rowObjects[row].edits[idx] = false;
                     vm.rowObjects[row].classes[idx] = "notselected";
                 } else {
-                    vm.selectCells.push({"row":parseInt(row), "col":parseInt(idx), "amt":parseInt(vm.rowObjects[row].amounts[idx])});
+                    vm.selectCells.push({"row":parseInt(row), "col":parseInt(idx),
+                        "format":parseInt(vm.rowObjects[row].formats[idx]),
+                        "amt":parseInt(vm.rowObjects[row].amounts[idx])});
                     vm.rowObjects[row].classes[idx] = "selected";
                     //vm.rowObjects[row].edits[idx] = true;
                 }
@@ -110,6 +120,7 @@
                     }
                 }
                 vm.dropError = false;
+                vm.editSelDataPanel = false;
             }
             var alreadySelected = function(row,idx){
                 for (var i=0; i<vm.selectCells.length; i++) {
@@ -119,6 +130,7 @@
                 }
                 return (-1);
             }
+            //this is for inline editing of a cell
             vm.editSel = function() {
                 for (var i=0; i<vm.selectCells.length; i++) {
                     var r = vm.selectCells[i].row;
@@ -129,12 +141,23 @@
 
                 console.log (JSON.stringify(vm.selectCells));
             }
+            vm.editSelData = function() {
+                vm.editSelDataPanel = true;
+            }
+
+            vm.editSelDataPanel = false;
+            //find out if the edit selection panel is turned off or on (this is not inline edit)
+            vm.editPanel = function() {
+                return vm.editSelDataPanel;
+            }
+            //for inline edit
             vm.isEdit = function(row,idx) {
                 if (vm.rowObjects[row].edits[idx]) {
                     return true;
                 }
                 return false;
             }
+            //when cancel button is clicked
             vm.cancSel = function() {
                 vm.editMode = false;
                 for (var r=0; r<vm.bRows.length; r++) {
@@ -150,8 +173,18 @@
 
             vm.saveSel = function() {
                 vm.editMode = false;
-                for (var r=0; r<vm.bRows.length; r++) {
-                    for (var c=0; c<vm.nWeeks; c++) {
+                if (vm.editPanel()) {
+                    //vm.editSel();
+                    for (var i=0; i<vm.selectCells.length; i++) {
+                        var r = vm.selectCells[i].row;
+                        var c = vm.selectCells[i].col;
+                        vm.rowObjects[r].amounts[c] = vm.selectCells[i].amt;
+                        vm.rowObjects[r].formats[c] = vm.selectCells[i].format;
+                        //vm.editMode = true;
+                    }
+                }
+                for (var r = 0; r < vm.bRows.length; r++) {
+                    for (var c = 0; c < vm.nWeeks; c++) {
                         vm.rowObjects[r].origAmounts[c] = parseInt(vm.rowObjects[r].amounts[c]);
                         vm.rowObjects[r].edits[c] = false;
                     }
@@ -163,9 +196,11 @@
 
             vm.onDragSuccess = function(dat,evt) {
                 vm.dropError = false;
-                console.log("DragSuccess - DAT:" + JSON.stringify(dat));
+                vm.dragged = true;
+                console.log("---DragSuccess - DAT----:" + JSON.stringify(dat));
             }
             vm.onDropComplete2 = function(dat, evt, droppedRow, droppedCol) {
+                vm.dragged = false;
                 console.log("DAT:" + JSON.stringify(dat));
                 console.log("ROW:" + droppedRow + ";COL:" + droppedCol);
                 var extremes = validateDrop(droppedRow, droppedCol);
@@ -193,6 +228,9 @@
                 }
                 vm.calcTotals();
 
+            }
+            vm.cellsDragged = function() {
+                return(vm.dragged);
             }
             var validateDrop = function(droppedRow, droppedCol) {
                 var extremes = getExtremeSelectedCells();

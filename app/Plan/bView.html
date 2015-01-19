@@ -16,7 +16,7 @@
             <tr ng-repeat="(key,bDetails) in bc.rowObjects">
                 <td ng-repeat="(idx, amt) in bDetails.amounts track by idx" ng-dblclick="bc.cellClicked(key,idx)" ng-class="bc.selected(key,idx)" ng-drop="true" ng-drop-success="bc.onDropComplete2($data,$event,key,idx)" >
                 <span ng-if="!bc.isEdit(key,idx)" >
-                    <span ng-drag="true" ng-drag-data="{{bc.selectCells}}" ng-drag-success="onDragSuccess($data, $event)"  >{{amt}}</span>
+                    <span ng-drag="true" ng-drag-data="{{bc.selectCells}}" ng-drag-success="onDragSuccess($data, $event)">{{amt}}</span>
                 </span>
                 <span ng-if="bc.isEdit(key,idx)" >
                     <input type="text" ng-model="bDetails.amounts[idx]" class="mytext" />
@@ -28,12 +28,47 @@
             </tr>
             </tbody>
         </table>
+
+        <button ng-click="bc.editSel()">Edit Burst Data Inline</button>
+        <button ng-click="bc.saveSel()" ng-class="scHide()">Save</button>
+        <button ng-click="bc.cancSel()" ng-class="scHide()">Cancel</button>
+        <button ng-click="bc.editSelData()" ng-class="scHide()">Edit Burst and Format Data</button>
+        <span ng-if="bc.dropError">Invalid Drop</span>
+    </form>
+    <fieldset label="Info Panel">
         <div ng-repeat="(skey, sdet) in bc.selectCells">
             <label>Selected Cells : {{skey+1}} : row={{sdet.row}} col={{sdet.col}}</label>
         </div>
-        <button ng-click="bc.editSel()">Edit Selection</button>
-        <button ng-click="bc.saveSel()" ng-class="scHide()">Save</button>
-        <button ng-click="bc.cancSel()" ng-class="scHide()">Cancel</button>
-        <span ng-if="bc.dropError">Invalid Drop</span>
-    </form>
+        <div ng-if="bc.cellsDragged()">Dragged</div>
+    </fieldset>
+    <fieldset label="Edit Selected Data">
+        <div ng-if="bc.editPanel()">
+            <div class="row">
+                <table>
+                    <thead class="shaded">
+                        <tr>
+                            <td>Week#</td>
+                            <td>StartDate</td>
+                            <td>Burst</td>
+                            <td>Format</td>
+                        </tr>
+                    </thead>
+                    <tbody class="mytext">
+                        <tr ng-repeat="(skey, sdet) in bc.selectCells">
+                            <td>{{sdet.col+1}}</td>
+                            <td>{{bc.wStDay[sdet.col]}}</td>
+                            <td><input class="mytext" type="text" ng-model="sdet.amt" /></td>
+                            <td><select name="dd" class="mytext" ng-model="sdet.format">
+                                <option value="10">10"</option>
+                                <option value="20">20"</option>
+                                <option value="30">30"</option>
+                                <option value="40">40"</option>
+                            </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </fieldset>
 </div>
