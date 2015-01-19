@@ -27,17 +27,21 @@
 
   }.CSSTableGenerator tr:nth-child(odd){ background-color:#aad4ff; }
 .CSSTableGenerator tr:nth-child(even)    { background-color:#ffffff; } */
-.CSSTableGenerator td{
+.CSSTableGenerator td {
     vertical-align:middle;
     border:1px solid #000000;
     border-width:0px 1px 1px 0px;
     text-align:center;
-    padding:0px;
+    padding:2px 24px 2px 0px;
     font-size:9px;
     width:20px;
     font-family:"Calibri", sans-serif;
     font-weight:normal;
     color:black;
+
+}
+.CSSTableGenerator .last, td:last-child {
+    padding: 2px 24px 2px 0px;
 }
 .shaded td{
     background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);
@@ -68,6 +72,7 @@
     font-family:arial;
     font-weight:bold;
     color:#ffffff;
+
 }
 .dropped {
     background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);
@@ -85,11 +90,10 @@
     color:#ffffff;
 }
 .mytext {
-    padding: 0px;
-    border-width:0px 0px 1px 1px;
-    text-align:center;
-    width: 20px;
-    font-size:10px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
 }
 /*.CSSTableGenerator tr:first-child:hover td{
     background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);
@@ -100,3 +104,56 @@
     background-color:#005fbf;
 }*/
 
+
+[ng-drag]{
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+[ng-drag]{
+    width: 2px;
+    height: 10px;
+
+    cursor: move;
+}
+ul.draggable-objects:after{
+    display: block;
+    content:"";
+    clear:both;
+}
+.draggable-objects li{
+    float:left;
+    display: block;
+    width: 120px;
+    height:100px;
+}
+[ng-drag].drag-over{
+    /*border:solid 1px red;*/
+}
+[ng-drag].dragging{
+    opacity: 0.5;
+}
+[ng-drop]{
+
+
+
+}
+[ng-drop].drag-enter{
+    border:dotted 1px black;
+}
+[ng-drop] span.title{
+    display: block;
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: 200px;
+    height: 20px;
+    margin-left: -100px;
+    margin-top: -10px;
+}
+[ng-drop] div{
+    position: relative;
+    z-index: 2;
+}

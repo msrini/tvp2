@@ -13,20 +13,24 @@
             </tr>
             </thead>
             <tbody class="mytext">
-                <tr ng-repeat="(key,bDetails) in bc.rowObjects">
-                    <!--td ng-repeat="j in Range(val.length) track by $index">{{val[$index]}}</td-->
-                    <td ng-repeat="(idx, amt) in bDetails.amounts track by idx" ng-click="bc.cellClicked(key,idx)" ng-drop="true" ng-drop-success="bc.onDropComplete2($data,$event,key,idx)" ng-class="bc.selected(key,idx)">
-                        <span ng-if="!bc.isEdit(key,idx)">{{amt}}</span>
-
-                        <div ng-drag="true" ng-drag-data="{{bc.selectCells}}" ng-drag-success="onDragSuccess($data, $event)" ng-if="bc.isEdit(key,idx)"><input type="text" ng-model="bDetails.amounts[idx]" class="mytext" /></div>
-                    </td>
-                </tr>
-                <tr>
-                    <td ng-repeat="mth in bc.months" colspan="{{bc.mWeeks[mth]}}">{{bc.totals[mth]}}</td>
-                </tr>
+            <tr ng-repeat="(key,bDetails) in bc.rowObjects">
+                <td ng-repeat="(idx, amt) in bDetails.amounts track by idx" ng-dblclick="bc.cellClicked(key,idx)" ng-class="bc.selected(key,idx)" ng-drop="true" ng-drop-success="bc.onDropComplete2($data,$event,key,idx)" >
+                <span ng-if="!bc.isEdit(key,idx)" >
+                    <span ng-drag="true" ng-drag-data="{{bc.selectCells}}" ng-drag-success="onDragSuccess($data, $event)"  >{{amt}}</span>
+                </span>
+                <span ng-if="bc.isEdit(key,idx)" >
+                    <input type="text" ng-model="bDetails.amounts[idx]" class="mytext" />
+                </span>
+                </td>
+            </tr>
+            <tr>
+                <td ng-repeat="mth in bc.months" colspan="{{bc.mWeeks[mth]}}">{{bc.totals[mth]}}</td>
+            </tr>
             </tbody>
         </table>
-
+        <div ng-repeat="(skey, sdet) in bc.selectCells">
+            <label>Selected Cells : {{skey+1}} : row={{sdet.row}} col={{sdet.col}}</label>
+        </div>
         <button ng-click="bc.editSel()">Edit Selection</button>
         <button ng-click="bc.saveSel()" ng-class="scHide()">Save</button>
         <button ng-click="bc.cancSel()" ng-class="scHide()">Cancel</button>

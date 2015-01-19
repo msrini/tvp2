@@ -68,7 +68,7 @@
                     for (var wn=0; wn<vm.mWeeksList[mth].length; wn++) {
                         var col = vm.mWeeksList[mth][wn];
                         for (var row=0; row<vm.wBursts[0].length; row++) {
-                            sum = sum + vm.rowObjects[row].amounts[col];
+                            sum = sum + parseInt(vm.rowObjects[row].amounts[col]);
                         }
                     }
                     vm.totals[mth] = sum;
@@ -86,13 +86,15 @@
                 if (vm.editMode) {
                     return;
                 }
+                row = parseInt(row);
+                idx = parseInt(idx);
                 var e = alreadySelected(row, idx);
                 if (e >= 0) {
                     vm.selectCells.splice(e, 1);    //remove
                     vm.rowObjects[row].edits[idx] = false;
                     vm.rowObjects[row].classes[idx] = "notselected";
                 } else {
-                    vm.selectCells.push({"row":parseInt(row), "col":parseInt(idx), "amt":vm.rowObjects[row].amounts[idx]});
+                    vm.selectCells.push({"row":parseInt(row), "col":parseInt(idx), "amt":parseInt(vm.rowObjects[row].amounts[idx])});
                     vm.rowObjects[row].classes[idx] = "selected";
                     //vm.rowObjects[row].edits[idx] = true;
                 }
@@ -111,7 +113,7 @@
             }
             var alreadySelected = function(row,idx){
                 for (var i=0; i<vm.selectCells.length; i++) {
-                    if (row == vm.selectCells[i].row && idx == vm.selectCells[i].col) {
+                    if (row === vm.selectCells[i].row && idx === vm.selectCells[i].col) {
                         return (i);
                     }
                 }
@@ -150,7 +152,7 @@
                 vm.editMode = false;
                 for (var r=0; r<vm.bRows.length; r++) {
                     for (var c=0; c<vm.nWeeks; c++) {
-                        vm.rowObjects[r].origAmounts[c] = vm.rowObjects[r].amounts[c];
+                        vm.rowObjects[r].origAmounts[c] = parseInt(vm.rowObjects[r].amounts[c]);
                         vm.rowObjects[r].edits[c] = false;
                     }
                 }
@@ -198,12 +200,13 @@
 
                 var offsetRow = droppedRow - extremes.topleft.row;
                 var offsetCol = droppedCol - extremes.topleft.col;
-                /*if (offsetRow < 0 || offsetCol < 0) {
+                if (offsetRow == 0 && offsetCol == 0) {
                     console.log("DROPERR: offset row, col=" + offsetRow + ";" + offsetCol);
                     return (ret);
-                }*/
+                }
                 console.log("VAL: dropped row=" + droppedRow + ";droppedCol=" + droppedCol );
                 for (var i=0; i<vm.selectCells.length; i++) {
+                    console.log("  SelectCells[" + i + "]" + i + ".row=" + vm.selectCells[i].row + ";.col=" + vm.selectCells[i].col);
                     var targetRow = vm.selectCells[i].row + offsetRow;
                     var targetCol = vm.selectCells[i].col + offsetCol;
                     if (targetRow < 0 || targetCol < 0) {
