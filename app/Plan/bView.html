@@ -12,7 +12,7 @@
                 <td ng-repeat="i in Range(bc.nWeeks) track by $index">{{bc.wStDay[$index]}}</td>
             </tr>
             </thead>
-            <tbody >
+            <tbody>
             <tr ng-repeat="(key,bDetails) in bc.rowObjects">
                 <td ng-repeat="(idx, amt) in bDetails.amounts track by idx" ng-dblclick="bc.cellClicked(key,idx)" ng-class="bc.selected(key,idx)" ng-drop="true" ng-drop-success="bc.onDropComplete2($data,$event,key,idx)" >
                 <span ng-if="!bc.isEdit(key,idx)" >
