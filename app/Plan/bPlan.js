@@ -16,6 +16,7 @@
                 vm.months = [];     //["Jan","Feb"]
                 vm.wBursts = [];    //
                 vm.wFormats = [];
+                vm.wMonths = [];    //Jan,Jan...Feb,Feb,Feb - month to which the week belongs to
                 vm.bRows = [];
                 vm.selectCells = [];
                 vm.editMode = false;
@@ -36,6 +37,7 @@
                         vm.mWeeksList[currMonth] = weeknumbers;
                     }
                     vm.wStDay[i] = d.weeks[i].startDay;
+                    vm.wMonths[i] = d.weeks[i].month;
                     vm.wBursts[i] = d.weeks[i].bursts;
                     vm.wFormats[i] = d.weeks[i].formats;
                 }
@@ -64,7 +66,9 @@
                 vm.totals = {};
                 vm.calcTotals();
             });
-
+            /*
+            Calculate running totals. Right now it is by Month. Add anything else here.
+            */
             vm.calcTotals = function() {
                 //sum by month
                 for (var i=0; i<vm.months.length; i++) {
@@ -87,7 +91,7 @@
                 }
             }
             /*
-            This is what happens when a cell is clicked!
+            This is what happens when a cell is clicked or dblclicked! Toggles selected cells. Store them in the memory
             */
             vm.cellClicked = function(row,idx) {
                 //toggle - see if already existing in the selected array. if so remove else add
@@ -109,10 +113,22 @@
                     //vm.rowObjects[row].edits[idx] = true;
                 }
             }
+            /*
+            Return true or false depending on if any of the cells are selected or not. Useful in switching the display on or off in view
+            */
+            vm.ifAnyClickedCells = function() {
+                if (vm.selectCells.length > 0) {
+                    return (true);
+                }
+                return (false);
+            }
             //selected is for CSS shading
             vm.selected = function(row,idx) {
                 return ("CSSTableGenerator " + vm.rowObjects[row].classes[idx]);
             }
+            /*
+            After the data is Saved or Cancelled, good to reset cells
+            */
             var resetClasses = function() {
                 for (var r = 0; r < vm.bRows.length; r++) {
                     for (var c = 0; c < vm.nWeeks; c++) {
@@ -138,11 +154,17 @@
                     vm.rowObjects[r].edits[c] = true;
                     vm.editMode = true;
                 }
-
                 console.log (JSON.stringify(vm.selectCells));
             }
             vm.editSelData = function() {
                 vm.editSelDataPanel = true;
+            }
+            vm.bCumAmountSelected = function() {
+                var sum=0;
+                for (var i=0; i<vm.selectCells.length; i++) {
+                    sum += vm.selectCells[i].amt;
+                }
+                return (sum);
             }
 
             vm.editSelDataPanel = false;
@@ -172,13 +194,11 @@
             }
 
             vm.saveSel = function() {
-                vm.editMode = false;
-                if (vm.editPanel()) {
-                    //vm.editSel();
+                if (vm.editSelDataPanel) {
                     for (var i=0; i<vm.selectCells.length; i++) {
                         var r = vm.selectCells[i].row;
                         var c = vm.selectCells[i].col;
-                        vm.rowObjects[r].amounts[c] = vm.selectCells[i].amt;
+                        //vm.rowObjects[r].amounts[c] = vm.selectCells[i].amt;
                         vm.rowObjects[r].formats[c] = vm.selectCells[i].format;
                         //vm.editMode = true;
                     }
@@ -189,6 +209,7 @@
                         vm.rowObjects[r].edits[c] = false;
                     }
                 }
+                vm.editMode = false;
                 vm.selectCells = [];
                 vm.calcTotals();
                 resetClasses();
