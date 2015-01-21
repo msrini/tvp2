@@ -138,6 +138,19 @@
                 vm.dropError = false;
                 vm.editSelDataPanel = false;
             }
+            /*
+             After the data is Saved or Cancelled, good to reset cells
+             */
+            var resetClasses2 = function() {
+                for (var r = 0; r < vm.bRows.length; r++) {
+                    for (var c = 0; c < vm.nWeeks; c++) {
+                        if (vm.rowObjects[r].classes[c] == "selected")
+                        vm.rowObjects[r].classes[c] = "waselected";
+                    }
+                }
+                vm.dropError = false;
+                vm.editSelDataPanel = false;
+            }
             var alreadySelected = function(row,idx){
                 for (var i=0; i<vm.selectCells.length; i++) {
                     if (row === vm.selectCells[i].row && idx === vm.selectCells[i].col) {
@@ -188,9 +201,10 @@
                         vm.rowObjects[r].edits[c] = false;
                     }
                 }
-                vm.selectCells = [];
+
                 vm.calcTotals();
                 resetClasses();
+                vm.selectCells = [];
             }
 
             vm.saveSel = function() {
@@ -248,7 +262,8 @@
 
                 }
                 vm.calcTotals();
-
+                resetClasses2();
+                vm.selectCells = [];
             }
             vm.cellsDragged = function() {
                 return(vm.dragged);

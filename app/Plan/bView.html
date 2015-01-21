@@ -1,5 +1,4 @@
 <div class="datagrid">
-
         <table st-table="bc.rowObjects" class="CSSTableGenerator" >
             <thead class="shaded">
             <tr>
@@ -25,7 +24,7 @@
                 </td>
             </tr>
             <tr>
-                <td ng-repeat="mth in bc.months" colspan="{{bc.mWeeks[mth]}}"> {{bc.totals[mth] | currency:"GBP "}} </td>
+                <td ng-repeat="mth in bc.months" colspan="{{bc.mWeeks[mth]}}"> {{bc.totals[mth] | currency:"&euro;"}} </td>
             </tr>
             </tbody>
         </table>
